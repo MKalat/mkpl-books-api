@@ -7,12 +7,11 @@ use Symfony\Component\Routing\Annotation\Route;
 class SecurityController extends AbstractController
 {
     /**
-     * @Route("/login", name="app_login", methods={"POST"})
+     * @Route("/logout", name="api_logout", methods={"GET"})
      */
-    public function login()
+    public function logout(): void
     {
-        return $this->json([
-                'user' => $this->getUser() ? $this->getUser()->getId() : null]
-        );
+        // controller can be blank: it will never be called!
+        throw new \Exception('Don\'t forget to activate logout in security.yaml');
     }
 }

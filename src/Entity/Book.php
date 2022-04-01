@@ -18,7 +18,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
  *          "get"={"access_control"="is_granted('ROLE_USER')"}
  *          "put"={"access_control"="is_granted('ROLE_USER')"}
  *          "delete"={"access_control"="is_granted('ROLE_USER')"}
- *          "path"={"access_control"="is_granted('ROLE_USER')"}
+ *          "patch"={"access_control"="is_granted('ROLE_USER')"}
  *     },
  * )
  */

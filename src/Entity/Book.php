@@ -15,9 +15,9 @@ use ApiPlatform\Core\Annotation\ApiResource;
  *      normalizationContext={"groups" = {"read"}},
  *      denormalizationContext={"groups" = {"write"}},
  *      itemOperations={
- *          "get"={"access_control"="is_granted('ROLE_USER')"}
- *          "put"={"access_control"="is_granted('ROLE_USER')"}
- *          "delete"={"access_control"="is_granted('ROLE_USER')"}
+ *          "get"={"access_control"="is_granted('ROLE_USER')"},
+ *          "put"={"access_control"="is_granted('ROLE_USER')"},
+ *          "delete"={"access_control"="is_granted('ROLE_USER')"},
  *          "patch"={"access_control"="is_granted('ROLE_USER')"}
  *     },
  * )

@@ -22,7 +22,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
  *     },
  * )
  */
-class publishing
+class Publishing
 {
     /**
      * @ORM\Id

@@ -22,7 +22,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
  *     },
  * )
  */
-class borrows
+class Borrows
 {
     /**
      * @ORM\Id

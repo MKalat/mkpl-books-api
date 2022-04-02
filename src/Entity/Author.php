@@ -22,7 +22,7 @@ use ApiPlatform\Core\Annotation\ApiResource;
  *     },
  * )
  */
-class author
+class Author
 {
     /**
      * @ORM\Id

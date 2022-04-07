@@ -12,7 +12,7 @@ class UserRepository extends ServiceEntityRepository implements UserLoaderInterf
     {
         parent::__construct($registry, User::class);
     }
-    
+
     public function loadUserByIdentifier(?string $usernameOrEmail): ?User
     {
         $entityManager = $this->getEntityManager();
